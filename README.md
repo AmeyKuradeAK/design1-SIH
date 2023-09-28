@@ -10,7 +10,7 @@ This is an e-commerce website that allows users to browse and purchase products.
 To get started, clone the repository and install the dependencies.
 
 ```
-git clone https://github.com/your-username/e-commerce-website.git
+git clone https://github.com/AmeyKuradeAK/design1-SIH.git
 cd e-commerce-website
 npm install
 ```
