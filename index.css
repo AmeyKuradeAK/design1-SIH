@@ -1,0 +1,100 @@
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000;
+}
+#search {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#search-btn {
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  background-color: #ccc;
+}
+
+#search-align {
+  text-align: right;
+}
+
+.container {
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+  gap: 3px 3px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Product-1"
+    "Product-2"
+    "Product-3"
+    "Product-4"
+    "Product-6"
+    "Product-7"
+    "Product-8";
+}
+
+.Product-1 {
+  grid-area: Product-1;
+}
+
+.Product-2 {
+  grid-area: Product-2;
+}
+
+.Product-3 {
+  grid-area: Product-3;
+}
+
+.Product-4 {
+  grid-area: Product-4;
+}
+
+.Product-6 {
+  grid-area: Product-6;
+}
+
+.Product-7 {
+  grid-area: Product-7;
+}
+
+.Product-8 {
+  grid-area: Product-8;
+}
+
+.card-text{
+  padding-right: 75%;
+}
